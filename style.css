@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(46, 150, 63);
+}
+
+.counter__text {
+    font-size: 28px;
+}
+
+.counter__button {
+    width: 180px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 22px;
+    color: rgb(9, 184, 18);
+    background-color: greenyellow;
+    font-weight: bold;
+}
+
+.counter__button--red {
+    width: 180px;
+    background-color: rgb(167, 5, 5);
+    height: 60px;
+    border-radius: 20px;
+    font-size: 22px;
+    color: rgb(15, 201, 9);
+    font-weight: bold;
+}
